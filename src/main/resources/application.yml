@@ -1,0 +1,46 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8080
+
+# mybatis配置
+mybatis:
+  type-aliases-package: com.nettychat.entity
+  mapper-locations: classpath:mapper/*.xml
+# 通用mapper配置
+mapper:
+  mappers: com.nettychat.utils.BaseMapper
+  not-empty: false
+  identity: MYSQL
+# 分页插件配置
+pagehelper:
+  dialect: com.github.pagehelper.dialect.helper.MySqlDialect
+  support-methods-arguments: true
+  params: count=countSql
+# 数据源配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://47.93.237.204:33061/uni_chat?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: 123456
+    hikari:
+      connection-timeout: 30000
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 600000
+      pool-name: DatebookHikariCP
+      max-lifetime: 28740000
+      connection-test-query: SELECT 1
+# 日志配置
+logging:
+  level:
+    com.codertl.server: debug
+    org.springframework: warn
+    # 日志文件可在 xml中配置， 也可以在这里配置
+  config: classpath:logback-spring.xml
+websocket:
+  port: 8088
+

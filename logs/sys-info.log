@@ -1,0 +1,35 @@
+12:18:14.440 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 1754 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+12:18:14.447 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+12:18:15.311 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:38:17.751 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 2209 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+13:38:17.754 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+13:38:18.947 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:39:48.808 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 2230 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+13:39:48.811 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+13:39:49.650 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:40:24.620 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 2239 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+13:40:24.623 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+13:40:25.401 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:40:51.345 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 2252 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+13:40:51.348 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+13:40:52.233 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:41:10.415 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 2260 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+13:41:10.419 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+13:41:11.206 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:42:02.519 [main] INFO  c.n.Application - [logStarting,55] - Starting Application on weibins-mbp with PID 2275 (/Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat/target/classes started by weibin in /Users/weibin/personal/Learn/develop/uni-chat/netty-chat/netty-chat)
+13:42:02.522 [main] INFO  c.n.Application - [logStartupProfileInfo,648] - No active profile set, falling back to default profiles: default
+13:42:03.328 [main] INFO  c.n.w.WSServer - [<init>,34] - WebSocket服务器初始化成功。。。
+13:42:04.030 [main] INFO  c.n.w.WSServer - [start,39] - netty websocket server started。。。
+13:42:04.036 [main] INFO  c.n.Application - [logStarted,61] - Started Application in 2.123 seconds (JVM running for 2.89)
+13:42:32.245 [nioEventLoopGroup-3-1] INFO  c.n.w.ChatHandler - [handlerAdded,50] - 客户端连接: df6814e8
+13:42:32.638 [nioEventLoopGroup-3-1] INFO  c.n.w.ChatHandler - [handlerRemoved,62] - 客户端关闭连接: df6814e8
+13:42:32.731 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [handlerAdded,50] - 客户端连接: da3807fd
+13:42:34.003 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 1
+13:42:34.174 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 1
+13:42:34.561 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 1
+13:42:34.728 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 1
+13:42:34.885 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 1
+13:42:38.156 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 2
+13:42:38.308 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 2
+13:42:38.421 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [channelRead0,32] - 接收到消息： 2
+14:19:43.645 [nioEventLoopGroup-3-2] INFO  c.n.w.ChatHandler - [handlerRemoved,62] - 客户端关闭连接: da3807fd
